@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+	<TestRunParameters>
+		<Parameter name="ObsWebsocketUrl" value="ws://localhost:4444" />
+	</TestRunParameters>
+</RunSettings>

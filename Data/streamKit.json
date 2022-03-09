@@ -1,0 +1,13 @@
+{
+  "Author": "Ricimon",
+  "Name": "StreamKit",
+  "Punchline": "Trigger OBS effects with in-game actions",
+  "Description": "Description goes here. List slash commands here.",
+  "InternalName": "streamKit",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "obs",
+    "streamkit",
+    "stream"
+  ]
+}
