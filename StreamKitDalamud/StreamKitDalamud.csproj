@@ -28,6 +28,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="..\images\icon.png" Link="images\icon.png" CopyToOutputDirectory="Always" />
     <Content Include="StreamKitDalamud.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
