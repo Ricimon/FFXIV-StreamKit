@@ -18,7 +18,7 @@ Then in FFXIV, run `/xlplugins`, go to Dev Tools -> Installed Dev Plugins, and L
 
 ## Usage
 
-In the `/xlplugins` window, hitting the Open Configuration button on the plugin opens the StreamKit configuration window.
+In the `/xlplugins` window, hitting the Open Configuration button on the plugin opens the StreamKit configuration window. Typing the command `/streamkit` will also open this window.
 
 <img src="/.github/res/configuration.png" width=400>
 
