@@ -2,7 +2,7 @@
 
 Plugin for XIVLauncher/Dalamud, used to trigger OBS effects with in-game actions.
 
-This plugin is currently a proof-of-concept of the ability to manipulate OBS with in-game actions and events, and as such, currently contains a single, simple feature. I hope to receive additional feature requests, and eventually build out a more general and programmable system based on desired features. So, feel free to ask for more features on GitHub issues or by submitting PRs!
+This plugin is currently a proof-of-concept of the ability to manipulate OBS with in-game actions and events, and as such, only contains a single, simple feature. I hope to receive additional feature requests, and eventually build out a more general and programmable system based on desired features. So, feel free to ask for more features on GitHub issues or by submitting PRs!
 
 ## Current Features
 
