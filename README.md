@@ -30,4 +30,4 @@ Use `Test Alive` and `Test Dead` to test that the proper OBS sources are togglin
 
 ## Demo
 
-<img src="./github/res/demo.gif">
+<img src="/.github/res/demo.gif">
