@@ -2,8 +2,9 @@
   "Author": "Ricimon",
   "Name": "StreamKit",
   "Punchline": "Trigger OBS effects with in-game actions",
-  "Description": "Description goes here. List slash commands here.",
-  "InternalName": "streamKit",
+  "Description": "Trigger OBS effects with in-game actions, such as dying!",
+  "RepoUrl": "https://github.com/Ricimon/FFXIV-StreamKit",
+  "InternalName": "StreamKit",
   "ApplicableVersion": "any",
   "Tags": [
     "obs",

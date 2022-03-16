@@ -3,4 +3,8 @@
 	<TestRunParameters>
 		<Parameter name="ObsWebsocketUrl" value="ws://localhost:4444" />
 	</TestRunParameters>
+   <NUnit>
+     <UseParentFQNForParametrizedTests>True</UseParentFQNForParametrizedTests>
+     <UseNUnitIdforTestCaseId>True</UseNUnitIdforTestCaseId>
+   </NUnit>  
 </RunSettings>
