@@ -20,7 +20,7 @@ Then in FFXIV, run `/xlplugins`, go to Dev Tools -> Installed Dev Plugins, and L
 
 In the `/xlplugins` window, hitting the Open Configuration button on the plugin opens the StreamKit configuration window.
 
-<img src="/.github/res/configuration.png" width=200>
+<img src="/.github/res/configuration.png" width=400>
 
 If you left default settings after installing obs-websocket, the existing IP:PORT parameter should work (`ws://localhost:4444`).
 
@@ -30,4 +30,4 @@ Use `Test Alive` and `Test Dead` to test that the proper OBS sources are togglin
 
 ## Demo
 
-<img src="./github/res/demo.png">
+<img src="./github/res/demo.gif">
