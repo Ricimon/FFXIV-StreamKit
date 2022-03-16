@@ -10,12 +10,16 @@ namespace StreamKitDalamud.UI
     public class PluginUIContainer : IDalamudHook
     {
         private readonly IPluginUIPresenter[] pluginUIPresenters;
+        private readonly MainWindowPresenter mainWindowPresenter;
         private readonly DalamudPluginInterface pluginInterface;
 
-        public PluginUIContainer(IPluginUIPresenter[] pluginUIPresenters,
+        public PluginUIContainer(
+            IPluginUIPresenter[] pluginUIPresenters,
+            MainWindowPresenter mainWindowPresenter,
             DalamudPluginInterface pluginInterface)
         {
             this.pluginUIPresenters = pluginUIPresenters ?? throw new ArgumentNullException(nameof(pluginUIPresenters));
+            this.mainWindowPresenter = mainWindowPresenter ?? throw new ArgumentNullException(nameof(mainWindowPresenter));
             this.pluginInterface = pluginInterface ?? throw new ArgumentNullException(nameof(pluginInterface));
 
             foreach (var pluginUIPresenter in this.pluginUIPresenters)
@@ -27,11 +31,13 @@ namespace StreamKitDalamud.UI
         public void Dispose()
         {
             this.pluginInterface.UiBuilder.Draw -= Draw;
+            this.pluginInterface.UiBuilder.OpenConfigUi -= ShowMainWindow;
         }
 
         public void HookToDalamud()
         {
             this.pluginInterface.UiBuilder.Draw += Draw;
+            this.pluginInterface.UiBuilder.OpenConfigUi += ShowMainWindow;
         }
 
         public void Draw()
@@ -47,6 +53,11 @@ namespace StreamKitDalamud.UI
             {
                 pluginUIPresenter.View.Draw();
             }
+        }
+
+        private void ShowMainWindow()
+        {
+            this.mainWindowPresenter.View.Visible = true;
         }
     }
 }

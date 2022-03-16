@@ -35,8 +35,9 @@ namespace StreamKitDalamud.Ninject
             Bind<Condition>().ToConstant(this.dalamudServices.Condition).InTransientScope();
 
             // Plugin classes
-            Bind<IDalamudHook, Plugin>().To<Plugin>().InSingletonScope();
+            Bind<Plugin>().ToSelf().InSingletonScope();
             Bind<IDalamudHook>().To<PluginUIContainer>().InSingletonScope();
+            Bind<IDalamudHook>().To<CommandDispatcher>().InSingletonScope();
             Bind<IDalamudHook>().To<ClientStateListener>().InSingletonScope();
             Bind<Configuration>().ToMethod(GetConfiguration).InSingletonScope();
             Bind<ObsConfiguration>().ToConstant(this.Kernel.Get<Configuration>().ObsConfiguration);
