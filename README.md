@@ -2,7 +2,7 @@
 
 Plugin for XIVLauncher/Dalamud, used to trigger OBS effects with in-game actions.
 
-This plugin is currently a proof-of-concept of the ability to manipulate OBS with in-game actions and events, and as such, currently contains a single, simple feature. I hope to receive additional feature requests, and eventually build out a more general and programmable system based on desired features. So, feel free to ask for more features on GitHub issues or submit PRs!
+This plugin is currently a proof-of-concept of the ability to manipulate OBS with in-game actions and events, and as such, currently contains a single, simple feature. I hope to receive additional feature requests, and eventually build out a more general and programmable system based on desired features. So, feel free to ask for more features on GitHub issues or by submitting PRs!
 
 ## Current Features
 
@@ -10,7 +10,7 @@ This plugin is currently a proof-of-concept of the ability to manipulate OBS wit
 
 ## Installation
 
-First, make sure your OBS has [obs-websocket](https://github.com/obsproject/obs-websocket) *v4.x* installed. Configure it with a password if you wish.
+First, make sure your OBS has [obs-websocket](https://github.com/obsproject/obs-websocket) **v4.x** installed. Configure it with a password if you wish.
 
 Next, grab the latest release in the [Releases](https://github.com/Ricimon/FFXIV-StreamKit/releases) section. Download the `StreamKitDalamud.zip` file, and extract its contents (should be a single folder called `StreamKit`) into XIVLauncher's devPlugins folder, which is typically located at `%APPDATA%/XIVLauncher/devPlugins`.
 
