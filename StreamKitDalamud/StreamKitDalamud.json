@@ -4,7 +4,7 @@
   "Punchline": "Trigger OBS effects with in-game actions",
   "Description": "Trigger OBS effects with in-game actions, such as dying!",
   "RepoUrl": "https://github.com/Ricimon/FFXIV-StreamKit",
-  "InternalName": "StreamKit",
+  "InternalName": "StreamKitDalamud",
   "ApplicableVersion": "any",
   "Tags": [
     "obs",
