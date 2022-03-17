@@ -1,0 +1,22 @@
+[
+    {
+        "Author": "Ricimon",
+        "Name": "StreamKit",
+        "Description": "Trigger OBS effects with in-game actions",
+        "InternalName": "StreamKit",
+        "AssemblyVersion": "0.1.0.0",
+        "TestingAssemblyVersion": "0.1.0.0",
+        "RepoUrl": "https://github.com/Ricimon/FFXIV-StreamKit",
+        "ApplicableVersion": "any",
+        "DalamudApiLevel": 5,
+        "IsHide": "False",
+        "IsTestingExclusive": "False",
+        "DownloadCount": 0,
+        "LastUpdate": 0,
+        "LoadPriority": 69420,
+        "DownloadLinkInstall": "https://github.com/Ricimon/FFXIV-StreamKit/releases/download/0.1.0.0/StreamKitDalamud.zip",
+        "DownloadLinkTesting": "https://github.com/Ricimon/FFXIV-StreamKit/releases/download/0.1.0.0/StreamKitDalamud.zip",
+        "DownloadLinkUpdate": "https://github.com/Ricimon/FFXIV-StreamKit/releases/download/0.1.0.0/StreamKitDalamud.zip",
+        "IconUrl": "https://raw.githubusercontent.com/Ricimon/FFXIV-StreamKit/main/images/icon.png"
+    }
+]
