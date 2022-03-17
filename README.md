@@ -8,6 +8,10 @@ This plugin is currently a proof-of-concept of the ability to manipulate OBS wit
 
 - Enable and disable OBS sources depending on if your character is alive
 
+## Demo
+
+<img src="/.github/res/demo.gif">
+
 ## Installation
 
 First, make sure your OBS has [obs-websocket](https://github.com/obsproject/obs-websocket) **v4.x** installed. Configure it with a password if you wish.
@@ -27,7 +31,3 @@ If you left default settings after installing obs-websocket, the existing IP:POR
 Set the `Alive image source name` and `Dead image source name` to the name of the corresponding sources on OBS. Note that these sources will only be changed if they are on the current active scene, and only the first source found by this name will be changed. Use a folder to group together multiple sources.
 
 Use `Test Alive` and `Test Dead` to test that the proper OBS sources are toggling on and off.
-
-## Demo
-
-<img src="/.github/res/demo.gif">
