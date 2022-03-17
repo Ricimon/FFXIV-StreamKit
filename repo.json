@@ -3,7 +3,7 @@
         "Author": "Ricimon",
         "Name": "StreamKit",
         "Description": "Trigger OBS effects with in-game actions",
-        "InternalName": "StreamKit",
+        "InternalName": "StreamKitDalamud",
         "AssemblyVersion": "0.1.0.0",
         "TestingAssemblyVersion": "0.1.0.0",
         "RepoUrl": "https://github.com/Ricimon/FFXIV-StreamKit",
