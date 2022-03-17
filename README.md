@@ -16,9 +16,9 @@ This plugin is currently a proof-of-concept of the ability to manipulate OBS wit
 
 First, make sure your OBS has [obs-websocket](https://github.com/obsproject/obs-websocket) **v4.x** installed. Configure it with a password if you wish.
 
-Next, grab the latest release in the [Releases](https://github.com/Ricimon/FFXIV-StreamKit/releases) section. Download the `StreamKitDalamud.zip` file, and extract its contents (should be a single folder called `StreamKit`) into XIVLauncher's devPlugins folder, which is typically located at `%APPDATA%/XIVLauncher/devPlugins`.
+Next, grab the latest release in the [Releases](https://github.com/Ricimon/FFXIV-StreamKit/releases) section. Download the `StreamKitDalamud.zip` file, and extract its contents (should be a single folder called `StreamKit`) into XIVLauncher's installedPlugins folder, which is typically located at `%APPDATA%/XIVLauncher/installedPlugins`.
 
-Then in FFXIV, run `/xlplugins`, go to Dev Tools -> Installed Dev Plugins, and Load the plugin.
+Then in FFXIV, run `/xlplugins`, go to Installed Plugins, and Load the plugin.
 
 ## Usage
 
