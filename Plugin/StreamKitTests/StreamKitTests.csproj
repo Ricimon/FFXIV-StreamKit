@@ -5,6 +5,8 @@
 		<Platforms>x64</Platforms>
 
     <UserSecretsId>FFXIV-StreamKitTests-03479288aa724c30bf454c488326b6cd</UserSecretsId>
+
+    <OutputType>Library</OutputType>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,11 +21,11 @@
   </ItemGroup>
 
 	<ItemGroup Condition="'$(TargetFramework)' == 'net48'">
-    <ProjectReference Include="..\StreamKitAct\StreamKitAct.csproj" />
+		<ProjectReference Include="..\StreamKitAct\StreamKitAct.csproj" />
 	</ItemGroup>
 
 	<ItemGroup Condition="'$(TargetFramework)' == 'net5.0-windows'">
-    <ProjectReference Include="..\StreamKitDalamud\StreamKitDalamud.csproj" />
+		<ProjectReference Include="..\StreamKitDalamud\StreamKitDalamud.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>

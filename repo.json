@@ -17,6 +17,6 @@
         "DownloadLinkInstall": "https://github.com/Ricimon/FFXIV-StreamKit/releases/download/0.1.0.0/StreamKitDalamud.zip",
         "DownloadLinkTesting": "https://github.com/Ricimon/FFXIV-StreamKit/releases/download/0.1.0.0/StreamKitDalamud.zip",
         "DownloadLinkUpdate": "https://github.com/Ricimon/FFXIV-StreamKit/releases/download/0.1.0.0/StreamKitDalamud.zip",
-        "IconUrl": "https://raw.githubusercontent.com/Ricimon/FFXIV-StreamKit/main/images/icon.png"
+        "IconUrl": "https://raw.githubusercontent.com/Ricimon/FFXIV-StreamKit/main/Plugin/images/icon.png"
     }
 ]
