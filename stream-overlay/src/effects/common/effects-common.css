@@ -1,0 +1,24 @@
+.effect-config {
+  /* text-align: left; */
+  /* align-items: left; */
+  /* justify-content: left; */
+  padding: 1.05rem 2rem 1.05rem 2rem;
+}
+
+.effect-config-section {
+  margin: 1rem auto auto auto;
+}
+
+.image-selection {
+  display: table;
+  width: 100%;
+}
+.image-selection label,
+.image-selection input {
+  display: table-cell;
+  width: 50%;
+}
+.image-selection label {
+  text-align: right;
+  padding-right: 0.5rem;
+}
