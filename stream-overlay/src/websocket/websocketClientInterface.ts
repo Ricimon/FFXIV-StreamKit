@@ -8,12 +8,14 @@ export enum WebsocketState {
   OPEN = 3,
 }
 
+export type NullableString = string | null;
+
 export interface IWebsocketClient {
-  connectionState: Observable<WebsocketState>;
+  connectionStateObservable: Observable<WebsocketState>;
 
   connect(url: string): void;
-  pushData(key: string, data: Uint8Array): void;
-  listenForDataUpdate(key: string): Observable<Uint8Array>;
+  pushData(key: string, data: string): void;
+  listenForDataUpdate(key: string): Observable<NullableString>;
 }
 
 export namespace IWebsocketClient {

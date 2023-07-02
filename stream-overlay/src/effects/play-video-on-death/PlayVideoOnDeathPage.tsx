@@ -1,6 +1,6 @@
 function PlayVideoOnDeathPage() {
   return (
-    <p>Play video on death</p>
+    <h2>Play video on death</h2>
   );
 }
 

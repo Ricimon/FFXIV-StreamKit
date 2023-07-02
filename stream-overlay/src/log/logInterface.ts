@@ -1,4 +1,4 @@
-import { Observable } from 'rxjs';
+import { interfaces } from 'inversify';
 
 export enum LogLevel {
   Trace = 0,
@@ -9,17 +9,18 @@ export enum LogLevel {
   Silent = 5,
 }
 
-export interface LogMessage {
-  msg: string;
-  logLevel: LogLevel;
+export function getLogLevelName(logLevel: LogLevel): string {
+  return LogLevel[logLevel];
 }
 
-export interface Logger {
+export interface ILogger {
   trace(msg:string): void;
   debug(msg:string): void;
   info(msg:string): void;
   warn(msg:string): void;
   error(msg:string): void;
+}
 
-  onLog: Observable<LogMessage>;
+export namespace ILogger {
+  export const $: interfaces.ServiceIdentifier<ILogger> = Symbol('ILogger');
 }
